@@ -2,7 +2,7 @@
 
 yfinance changed the default behavior in version 0.2.29 to cache timezone info to
 improve performance. However, the default place it tries to save the cache
-(`'/home/appuser/.cache/`) doesn't exist on Streamlit Community Cloud.
+(`/home/appuser/.cache/`) doesn't exist on Streamlit Community Cloud.
 
 You can get around this issue and still use the latest versions of yfinance by setting
 a different cache directory than the default one, like this:
