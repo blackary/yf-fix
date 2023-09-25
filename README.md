@@ -35,5 +35,7 @@ whatever you want.
 
 This bug has been reported here https://github.com/ranaroussi/yfinance/issues/1700
 
+This app can be previewed at: https://yf-fix.streamlit.app/
+
 Alternatively, you can set `yfinance==0.2.28` in your requirements.txt to avoid this
 issue.

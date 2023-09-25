@@ -18,3 +18,5 @@ msft = yf.Ticker("MSFT")
 hist = msft.history(period="1mo")
 
 st.write(hist)
+
+st.markdown(Path("README.md").read_text())
