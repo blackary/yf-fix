@@ -1,5 +1,9 @@
 # YFinance > 0.2.28 support in Community Cloud
 
+# UPDATE 2023-10-01 This has been fixed with yfinance>=0.2.31b2
+
+## OLD:
+
 yfinance changed the default behavior in version 0.2.29 to cache timezone info to
 improve performance. However, the default place it tries to save the cache
 (`/home/appuser/.cache/`) doesn't exist on Streamlit Community Cloud.
